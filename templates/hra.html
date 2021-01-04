@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>kostka</title>
+            <meta charset="utf-8">
+            <link rel="stylesheet" href="/static/custom.css">
+
+        </head>
+    <body>
+        <h1>Ultimatni hod kostkou !</h1>
+        <p></p>
+        <img class="obrazek2" src="/static/nahled/nahled.jpg" width=20%> <br>
+
+        <p class="uprostred">
+            <img class="obrazek" src="/static/pics/{{ hrac }}.png">
+        <p class="uprostred">
+            <img class="obrazek" src="/static/pics/{{ bot }}.png">
+        </p>
+        
+         <br>
+        <h3 class="hrac">Hodil jsi: {{ hrac }}</h3>
+
+        <h3 class="hrac">Protihráč hodil: {{ bot }}</h3>
+
+
+        <h4>Výhry: {{HracVyhra}}</h4>
+        <h4>Prohry: {{BotVyhra}}</h4>
+
+        <center><h2 class="vyhra"> {{ vyhra }} </h2></center>
+
+       
+        <button class="tlacitko" onCLick="window.location.reload();" >Hod znova</button>
+
+
+
+        
+    </body>
+</html>

@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: lightgreen;
+}
+.tlacitko{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  border-color: #4CAF50;
+  color: green;
+}
+.tlacitko:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.uprostred{
+    padding: 85px;
+    padding-bottom: 10px;
+    display: inline-block;
+
+}
+
+.obrazek2{
+  margin-bottom: -80px;
+}
+
+.obrazek{
+     border:10px solid  #6666ff;
+     border-radius: 20px;
+     background-color: #ffccff;
+     border-image: linear-gradient(to bottom right, 	 #000066 0%,  #0000b3 25%, #0000e6 50%, #fec837 75%, #8080ff 100%);
+     border-image-slice: 1;
+}
+.hrac{
+    padding: 10px;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: -10px ;
+
+}
+
+h2{
+  border-style: solid;
+  text-decoration: none;
+  background-color: seashell;
+  width: 300px;
+  color: royalblue;
+  
+}
+
+h4{
+ padding: 1px;  
+ margin-top: -10px;
+}
